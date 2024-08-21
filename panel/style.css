@@ -1,0 +1,311 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+}
+.left{
+    height: 100vh;
+    background-color:white;
+    width: 17%;
+    position: sticky;
+    top:0%;
+}
+
+.left ul li:hover{
+    background-color: rgb(198, 198, 230);
+}
+/* 
+.right .container-second .box2{
+    width: 45%;
+}
+
+.right .container-second .box3{
+    width: 100%;
+} */
+.right{
+    height: 100vh;
+    background-color: rgb(244, 238, 238);
+    width: 83%;
+    margin: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+  
+   
+}
+.right  .position-fixed{
+    
+    z-index: 999;
+}
+.right .main-right{
+    width: 50%;
+    height: 75px;
+}
+.right .main-right input{
+    width: 45%;
+  background-color: rgb(221, 220, 220);
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    height: 55px;
+    position: relative;
+    z-index: 1;
+}
+.main-right  a i{
+    position: absolute;
+    font-size: 23px;
+    color: gray ;
+    left:59%;
+    z-index: 2;
+    top:29%;
+     
+}
+.main-right  .btn{
+    background-color: rgb(221, 220, 220);
+}
+.main-right .btn i{
+    font-size: 25px;
+    
+}
+
+.right .btn{
+    width: 8%;
+    border-radius: 30px;
+    height: 50px;
+   
+}
+.right .profile-btn{
+
+    border-radius: 50px;
+    height: 50px;
+    width: 8%;
+}
+.main-right img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.container-second .box1{
+    height: 250px;
+    width: 45%;
+    background-color: rgb(42, 42, 248);
+    border-radius: 20px;
+}
+.box1 .first-line h2{
+    height: 40px;
+    width: 15%;
+   
+}
+.box1 .first-line h2 img{
+    height: 100%;
+    width: 100%;
+}
+.div{
+    background-color: #007aff;
+    height: 80.6px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 5.1%;
+}
+
+.container-second .box2{
+    height: 250px;
+    width: 45%;
+    background-color: rgb(42, 42, 248);
+    border-radius: 20px;
+   
+   
+}
+.box2 .first-line h2{
+    height: 40px;
+    width: 15%;
+   
+}
+.box2 .first-line h2 img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.container-second .box3{
+    height: 250px;
+    width: 90%;
+    border-radius: 20px;
+
+}
+.box3 .button{
+    height: 47px;
+    width: 12%;
+    border-radius: 50px;
+   background-color: rgb(243, 230, 205);
+   border: none;
+}
+.box3 .button i{
+    font-size: 25px;
+    color: orange;
+    
+}
+.box3 h5{
+    font-size: 17px;
+}
+.box3 h5 b{
+    font-size: 15px;
+     color: gray;
+    
+}
+.box3 .button1{
+    height: 47px;
+    width: 12%;
+    border-radius: 50px;
+   background-color: rgb(215, 218, 242);
+   border: none;
+}
+ .box3 .menu1 .icon2{
+    color: blue;
+    font-size: 25px;
+ }
+
+ .box3 .button2{
+    height: 47px;
+    width: 12%;
+    border-radius: 50px;
+   background-color:  rgb(216, 247, 210);
+   border: none;
+}
+ .box3 .menu1 .icon3{
+    color: rgb(89, 193, 69);
+    font-size: 25px;
+ }
+ .container-third .box1{
+    height: 300px;
+    width: 95%;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 4%;
+ }
+
+ 
+ .container-third .box2{
+    height: 300px;
+    width: 95%;
+    background-color:white;
+    border-radius: 20px;
+    
+ }
+ .container-fourth .col-6{
+width: 45%;
+border-radius: 20px;
+height: 250px;
+
+ }
+ 
+ .container-fourth .slider{
+   
+    height: 150px;
+    margin-top: 5%;
+    
+ }
+ .container-fourth .slider .slider-box1{
+    z-index: 1;
+ }
+ .container-fourth .slider .slider-box1{
+   
+    height: 70px;
+    width: 16%;
+    border-radius: 50px;
+ }
+ .container-fourth .column{
+    height: 120px;
+ }
+ .container-fourth .slider .slider-box1 img{
+    height: 70px;
+    width: 100%;
+    border-radius: 50px;
+ }
+ .carousel-control-next-icon{
+
+    background-color: rgb(157, 153, 153);
+    border-radius: 300px;
+  
+ }
+
+ .container-fourth .slider-footer input{
+    background-color: rgb(236, 236, 236);
+  
+ 
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    height: 50px;
+    z-index: 1;
+   
+   
+ }
+ .container-fourth .slider-footer button{
+    position:relative;
+   width: 25%;
+   height: 50px;
+   color: white;
+    left:60.3%;
+    z-index: 2;
+    font-size: 20px;
+    background-color: blue;
+    border-radius: 50px;
+    border: none;
+   
+ }
+ .container-fourth .slider-footer button:hover{
+    background-color:  rgb(29, 29, 108);
+  }
+  .table .container{
+    height: 500px;
+    width: 95.5%;
+    margin: auto;
+    border-radius: 20px;
+ }
+ 
+ .table .col-12 .table{
+    border-radius: 20px;
+ }
+  
+ .table-box{
+    width: 15%;
+    height: 77px;
+    display: flex;
+  }
+  .table-box img{
+     width: 100%;
+     height: 100%;
+  }
+  .table a{
+  margin-left:33%;
+ }
+  .table i{
+  color: rgb(220, 132, 132);
+ }
+  .table  .m1{
+  color: rgb(89, 190, 89);
+  padding-right: 9%;
+  padding-top: 0%;
+  background-color: rgb(212, 248, 221);
+  height: 35px;
+ }
+  .table  ul li{
+  font-size: 14px;
+  padding-top: 20%;
+ }
+  .table  .m2{
+  color:rgb(243, 189, 89);
+  padding-right: 9%;
+
+  background-color: rgb(240, 233, 207);
+  height: 35px;
+ }
+  .table .main2{
+  font-size: 14px;
+  padding-top: 2%;
+ }
